@@ -8,7 +8,7 @@ describe("p10", () => {
   beforeEach(async () => {
     await clearDb();
   });
-  it("deletaAllUsersWithAgeUnderN should exist", () => {
+  it("deleteAllUsersWithAgeUnderN should exist", () => {
     expect(deleteAllUsersWithAgeUnderN).toBeInstanceOf(Function);
   });
 
